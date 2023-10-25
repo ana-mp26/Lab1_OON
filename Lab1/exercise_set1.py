@@ -3,13 +3,19 @@
 import numpy as np
 import matplotlib as plt
 
-
+#newww
 # Please, remove all the pass in the exercises and substitute them with the expected methods for your functions
 
 
 # ex1
 def exercise1():
-    pass
+    num1 = int(input("Enter first number:"))
+    num2 = int(input("Enter second number:"))
+
+    if num1 * num2 <= 1000:
+        print("The product of the two number is " + str(num1 * num2))
+    else:
+        print("The sum of the two number is " + str(num1 + num2))
 
 
 # ex2
@@ -71,25 +77,25 @@ if __name__ == "__main__":
     print("EXERCISE SET 1")
     print("EX1")
     exercise1()
-    print("EX2")
-    exercise2()
-    print("EX3")
-    exercise3()
-    print("EX4")
-    exercise4()
-    print("EX5")
-    exercise5()
-    print("EX6")
-    exercise6()
-    print("EX7")
-    exercise7()
-    print("EX8")
-    exercise8()
-    print("EX9")
-    exercise9()
-    print("EX10")
-    exercise10()
-    print("EX11")
-    exercise11()
-    print("EX12")
-    exercise12()
+    # print("EX2")
+    # exercise2()
+    # print("EX3")
+    # exercise3()
+    # print("EX4")
+    # exercise4()
+    # print("EX5")
+    # exercise5()
+    # print("EX6")
+    # exercise6()
+    # print("EX7")
+    # exercise7()
+    # print("EX8")
+    # exercise8()
+    # print("EX9")
+    # exercise9()
+    # print("EX10")
+    # exercise10()
+    # print("EX11")
+    # exercise11()
+    # print("EX12")
+    # exercise12()
